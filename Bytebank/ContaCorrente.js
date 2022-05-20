@@ -3,6 +3,7 @@ import { Cliente } from "./Cliente.js";
 export class ContaCorrente {
     agencia;
 <<<<<<< HEAD
+<<<<<<< HEAD
     _cliente;
 
     set cliente(novoValor) {
@@ -14,6 +15,9 @@ export class ContaCorrente {
     get cliente() {
         return this._cliente;
     }
+=======
+    cliente;
+>>>>>>> b3effd1eb5c7377d4681de6bb3cb048bb88f2e57
 =======
     cliente;
 >>>>>>> b3effd1eb5c7377d4681de6bb3cb048bb88f2e57
@@ -64,6 +68,9 @@ export class ContaCorrente {
     }
 
     transferir(valor, conta){
+<<<<<<< HEAD
+>>>>>>> b3effd1eb5c7377d4681de6bb3cb048bb88f2e57
+=======
 >>>>>>> b3effd1eb5c7377d4681de6bb3cb048bb88f2e57
         const valorSacado = this.sacar(valor);
         conta.depositar(valorSacado);
